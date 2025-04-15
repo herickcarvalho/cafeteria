@@ -200,9 +200,14 @@ line-height: 1.8;
     font-weight: lighter;
  }
 
- .menu .box-container .box:hover{
-    background-color: whitesmoke;
+.menu .box-container .box:hover{
+    background-color: var(--main-color);
+    color: black;
+    transform: scale(1.05);
+    transition: 0.2s linear;
+    
 
+    
 }
 
 .review .box-container{
